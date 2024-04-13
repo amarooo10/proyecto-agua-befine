@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="es"><!--para definir el idioma principal del contenido de la pagina web-->
+<html lang="es">
 <head>
-    <meta charset="UTF-8"><!--se utiliza para definir como esta codificado en este punto esta codificado por UTF-8-->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agua Purificada Befine</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+       <!-- CSS Personal -->
+    <link rel="stylesheet" href="./StylesA.css">
     <!-- JavaScript -->
     <script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
-    <br></br><!--br se utiliza para hacer el salto de linea-->
+    <br></br>
     <header class="bg-dark text-white py-4">
         <div class="container">
             <h1><a href="AguaBefine.html" class="text-white">Agua Purificada Befine</a></h1>
             <nav>
-                <ul class="list-inline"><!--SE UTILIZA PARA CREAR LISTAS-->
+                <ul class="list-inline">
                     <li class="list-inline-item"><a href="Inicio.html" class="text-white">Inicio</a></li>
                     <li class="list-inline-item"><a href="productos.html" class="text-white">Productos</a></li>
                     <li class="list-inline-item"><a href="Nosotros.html" class="text-white">Nosotros</a></li>
@@ -26,8 +28,8 @@
     </header>
     <main class="container py-4">
         <section id="productos" class="mb-4">
-            <h2>Nuestros Productos</h2>
-            <p>Aquí puedes encontrar una variedad de productos de agua purificada, desde agua purificada embotellada, hasta dispensadores de agua para hogares y oficinas.</p>
+            <h2>Agenda tu pedido rapidamente</h2>
+            <p>Rellena los datos y será agendado para la ruta más próxima.</p>
             <div class="row">
                 <!-- Tarjetas de productos -->
                 <!-- Tú código de tarjetas aquí -->
@@ -42,14 +44,14 @@
             </div>
 
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <input type="text" class="form-control" placeholder="Nombre de usuario" aria-label="Nombre de usuario" aria-describedby="basic-addon2">
                 <span class="input-group-text" id="basic-addon2">@example.com</span>
             </div>
 
             <div class="mb-3">
                 <label for="basic-url" class="form-label">Your vanity URL</label>
                 <div class="input-group">
-                    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                    <span class="input-group-text" id="basic-addon3">Nombre del producto</span>
                     <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
                 </div>
                 <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
@@ -62,15 +64,17 @@
             </div>
 
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                <input type="text" class="form-control" placeholder="Comuna" aria-label="Comuna">
                 <span class="input-group-text">@</span>
-                <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                <input type="text" class="form-control" placeholder="Horario (AM-PM)" aria-label="Horario (AM-PM)">
             </div>
 
             <div class="input-group">
-                <span class="input-group-text">With textarea</span>
+                <span class="input-group-text">Detalles de pedido.</span>
                 <textarea class="form-control" aria-label="With textarea"></textarea>
             </div>
+              <!-- BOTON ENVIAR -->
+            <input class="btn btn-primary" type="Enviar" value="Enviar">
         </div>
     </main>
     <footer class="bg-dark text-white py-4">
